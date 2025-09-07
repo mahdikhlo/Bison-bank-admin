@@ -7,6 +7,38 @@ const router = createRouter({
   },
   routes: [
     {
+      path: '/admin-experience',
+      name: 'Admin Experience',
+      component: () => import('@/views/Pages/AdminExperiencePage.vue'),
+      meta: {
+        title: 'Security Log page',
+      },
+    },
+    {
+      path: '/security-log',
+      name: 'Security Log',
+      component: () => import('@/views/Pages/SecurityLogsPage.vue'),
+      meta: {
+        title: 'Security Log page',
+      },
+    },
+    {
+      path: '/address-book',
+      name: 'Address Book',
+      component: () => import('@/views/Pages/AddressBookPage.vue'),
+      meta: {
+        title: 'Address Book',
+      },
+    },
+    {
+      path: '/support',
+      name: 'Support',
+      component: () => import('@/views/Pages/SupportPage.vue'),
+      meta: {
+        title: 'support page',
+      },
+    },
+    {
       path: '/users',
       name: 'Users',
       component: () => import('@/views/Pages/UsersPage.vue'),

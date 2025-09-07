@@ -47,7 +47,7 @@
 
 <script setup>
 import { reactive, ref, computed } from 'vue'
-import Pagination from './PaginationAccount.vue'
+import Pagination from '../common/CommonPagination.vue'
 import SearchFilter from './SearchFilter.vue'
 
 const transactions = reactive([

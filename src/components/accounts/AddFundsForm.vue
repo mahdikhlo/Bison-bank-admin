@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-white dark:bg-gray-900 p-6 rounded-lg shadow max-w-md">
+    <div class="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-md">
         <h2 class="text-xl font-semibold text-gray-800 dark:text-white mb-4">Add Funds to User Account</h2>
         <form @submit.prevent="submit">
             <div class="mb-4">

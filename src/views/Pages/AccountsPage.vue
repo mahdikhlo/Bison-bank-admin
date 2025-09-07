@@ -38,7 +38,7 @@ import AddFundsForm from '@/components/accounts/AddFundsForm.vue'
 import TransfersTable from '@/components/accounts/TransfersTable.vue'
 import TransferDocuments from '@/components/accounts/TransferDocuments.vue'
 
-const currentPageTitle = ref("Users");
+const currentPageTitle = ref("Account & Transaction Management");
 
 
 const tabs = [
